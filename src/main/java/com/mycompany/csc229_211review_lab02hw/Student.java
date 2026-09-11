@@ -54,5 +54,15 @@ public class Student extends Person{
     }
 	// ToDo 4: Add comments to your code
 
+    /**
+     * public String toString()
+     * @return The student's information as a String
+     */
+    public String toString(){
+
+        String toString = "Student Info:\nName: " + getName() + "\nAge: " + getAge() + "\nGPA: " + gpa;
+        return toString;
+    }
+
 
 }
