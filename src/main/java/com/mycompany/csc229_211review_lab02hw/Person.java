@@ -25,7 +25,7 @@ public abstract class Person {
 		this.name = name;
 	}
 	
-	public abstract String getAddress() ;
+	public abstract String getAddress();
 	
 	public abstract void setAddress(String address);
 	
