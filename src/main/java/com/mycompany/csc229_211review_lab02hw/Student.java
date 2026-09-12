@@ -15,10 +15,10 @@ public class Student extends Person{
 	// ToDo 3: Add a field for GPA and create setter and getter
 
     //Constructor
-    Student(String name, short age, double gpa){
+    Student(String name, short age){
         //super calls the constructor of the person class and gives it name and age.
         super(name, age);
-        this.gpa = gpa;
+
     }
 
     /**

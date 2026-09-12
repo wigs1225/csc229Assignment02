@@ -13,7 +13,7 @@ public class DriverClass {
 		
 		// ToDo 7: Add a toString method for Student class
 		
-		Student std1= new Student("James", (short) 20, 4.00);
+		Student std1= new Student("James", (short) 20);
 		
 		// ToDo 8: Set the gpa of the student using the scanner and user
 		// 			input and then print the output.
